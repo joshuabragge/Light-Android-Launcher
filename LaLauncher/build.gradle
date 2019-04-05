@@ -6,7 +6,7 @@ android {
         minSdkVersion 5
         targetSdkVersion 26
         versionCode 12
-        versionName '1.7.0'
+        versionName '1.7.0-eink'
     }
     buildTypes {
         release {
@@ -22,6 +22,6 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
     }
     dependencies {
-        implementation 'net.sourceforge.streamsupport:streamsupport:1.6.0'
+        compile 'net.sourceforge.streamsupport:streamsupport:1.6.0'
     }
 }
